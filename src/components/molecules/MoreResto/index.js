@@ -20,7 +20,7 @@ const MoreResto = (props) => {
         <View style={{position: 'relative'}}>
           <Text
             style={{
-              fontSize: 17,
+              fontSize: 15,
               fontWeight: 'bold',
               overflow: 'hidden',
               paddingRight: 15,
@@ -44,7 +44,7 @@ const MoreResto = (props) => {
           <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
             <Text
               style={{
-                fontSize: 14,
+                fontSize: 13,
                 color: '#9a9a9a',
                 paddingLeft: 15,
                 paddingRight: 8,
@@ -53,7 +53,7 @@ const MoreResto = (props) => {
             </Text>
             <Text
               style={{
-                fontSize: 14,
+                fontSize: 13,
                 color: '#9a9a9a',
                 paddingLeft: 15,
                 paddingRight: 8,
@@ -62,7 +62,7 @@ const MoreResto = (props) => {
             </Text>
             <Text
               style={{
-                fontSize: 14,
+                fontSize: 13,
                 color: '#9a9a9a',
                 paddingLeft: 15,
                 paddingRight: 8,
@@ -90,10 +90,11 @@ const MoreResto = (props) => {
             <Image
               source={require('../../../assets/icons/bike.png')}
               style={{
-                height: 15,
-                width: 15,
+                height: 14,
+                width: 14,
                 position: 'absolute',
-                left: 94,
+                top:1,
+                left: 92,
               }}
             />
           </View>
@@ -101,7 +102,7 @@ const MoreResto = (props) => {
           <View style={{flex: 1, position: 'relative', paddingTop: 10}}>
             <Text
               style={{
-                fontSize: 14,
+                fontSize: 13,
                 fontWeight: '600',
                 color: '#676767',
                 overflow: 'hidden',

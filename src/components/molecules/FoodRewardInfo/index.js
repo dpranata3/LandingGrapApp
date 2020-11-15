@@ -22,11 +22,14 @@ const FoodRewardInfo = () => {
         }}>
         <Text
           style={{
-            fontSize: 14,
+            fontSize: 12,
             paddingLeft: 5,
             fontWeight: 'bold',
             color: '#cd6d5d',
-          }}>
+            overflow:'hidden'
+          }}
+          numberOfLines={1}
+          >
           There are 159 food rewards waiting
         </Text>
       </View>
